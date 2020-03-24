@@ -11,8 +11,18 @@
             border: 1px solid black;
         }
     </style>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 class="awesome-text">I'm just here to demonstrate branches</h1>
+    <h1 id="clickable-heading" class="awesome-text">I'm just here to demonstrate branches</h1>
+    <script>
+        $("#clickable-heading").on("click", function(){
+            alert("I've been clicked!");
+        })
+    </script>
+    
 </body>
 </html>
