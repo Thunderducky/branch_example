@@ -2,3 +2,9 @@
     color:red;
     border: 1px solid black;
 }
+.cool-button {
+    padding: 15px;
+    background-color: blue;
+    border-radius: 15px;
+    color:white;
+}
