@@ -1,3 +1,2 @@
 # branch_example
-
-This is a test, this is only a test.
+This is my favorite repo in the whole citadel
